@@ -5,15 +5,13 @@
  */
 package Programa;
 
-import Restaurante.Carta;
-import Restaurante.Proceso;
 import Restaurante.Cliente;
+import Restaurante.Proceso;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import static java.lang.Thread.sleep;
 import java.util.StringTokenizer;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -34,25 +32,13 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         initComponents();
             this.setSize(591, 580); //Dimensiones de la ventana
            this.setResizable(false); //Dimensiones de la ventana fijas, no se puede modificar por el usuario
-<<<<<<< Updated upstream
-
-           
-           setTitle("RESTAURANTE"); //Titulo de la ventana
-
-           setTitle("RESTAURANTE "); //Titulo de la ventana
-
-
-           setTitle("RESTAURANTE"); //Titulo de la ventana
-
-=======
-           setTitle("RESTAURANTE RENCITO "); //Titulo de la ventana
->>>>>>> Stashed changes
+           setTitle("RESTAURANTES MARISCOS - SOFTWARE"); //Titulo de la ventana
         
         //Creamos hilo
         new Thread(){
-            public void run(){
-              int x = 500;
-              int y = Bienvenido.getLocation().y;
+         public void run(){
+           int x = 500;
+           int y = Bienvenido.getLocation().y;
            
            while(true){
             x--;
@@ -260,13 +246,12 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Base de Datos con Bloc de Notas .txt");
-        setBackground(new java.awt.Color(0, 0, 0));
         getContentPane().setLayout(null);
 
-        panel.setBackground(new java.awt.Color(0, 0, 0));
+        panel.setBackground(new java.awt.Color(204, 204, 255));
         panel.setLayout(null);
 
-        jButton2.setBackground(new java.awt.Color(0, 204, 204));
+        jButton2.setBackground(new java.awt.Color(255, 102, 102));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setText("Modificar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -275,9 +260,9 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(jButton2);
-        jButton2.setBounds(480, 280, 83, 24);
+        jButton2.setBounds(320, 290, 85, 25);
 
-        jButton3.setBackground(new java.awt.Color(204, 204, 255));
+        jButton3.setBackground(new java.awt.Color(255, 102, 102));
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton3.setText("Eliminar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -286,22 +271,21 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(jButton3);
-        jButton3.setBounds(480, 250, 76, 24);
+        jButton3.setBounds(220, 290, 79, 25);
 
-        Bienvenido.setFont(new java.awt.Font("Showcard Gothic", 0, 36)); // NOI18N
-        Bienvenido.setForeground(new java.awt.Color(255, 255, 0));
+        Bienvenido.setFont(new java.awt.Font("Trebuchet MS", 1, 32)); // NOI18N
+        Bienvenido.setForeground(new java.awt.Color(255, 255, 255));
         Bienvenido.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Bienvenido.setText("RESTAURANTE RENCITO ");
+        Bienvenido.setText("RESTAURANTE MARISCOS - SOFTWARE ");
         Bienvenido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         panel.add(Bienvenido);
-        Bienvenido.setBounds(100, 50, 440, 50);
+        Bienvenido.setBounds(-10, 50, 720, 44);
 
         jTextArea1.setEditable(false);
-        jTextArea1.setBackground(new java.awt.Color(255, 204, 0));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         panel.add(jTextArea1);
-        jTextArea1.setBounds(170, 280, 290, 70);
+        jTextArea1.setBounds(160, 340, 310, 94);
 
         BotonSeguir.setBackground(new java.awt.Color(204, 255, 204));
         BotonSeguir.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -312,17 +296,16 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(BotonSeguir);
-        BotonSeguir.setBounds(230, 450, 100, 24);
+        BotonSeguir.setBounds(430, 290, 100, 25);
 
         MenuPrincipal.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         MenuPrincipal.setForeground(new java.awt.Color(255, 255, 255));
         MenuPrincipal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        MenuPrincipal.setText("REGISTRATE");
+        MenuPrincipal.setText("Registro del Cliente");
         panel.add(MenuPrincipal);
-        MenuPrincipal.setBounds(190, 100, 237, 33);
+        MenuPrincipal.setBounds(200, 120, 237, 33);
 
         jTextField7.setEditable(false);
-        jTextField7.setBackground(new java.awt.Color(204, 255, 204));
         jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -330,9 +313,9 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(jTextField7);
-        jTextField7.setBounds(50, 390, 480, 50);
+        jTextField7.setBounds(140, 450, 343, 30);
 
-        jButton1.setBackground(new java.awt.Color(255, 255, 0));
+        jButton1.setBackground(new java.awt.Color(255, 102, 102));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setText("Guardar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -341,11 +324,11 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(jButton1);
-        jButton1.setBounds(480, 210, 79, 30);
+        jButton1.setBounds(80, 290, 110, 25);
 
         txtNombre.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         panel.add(txtNombre);
-        txtNombre.setBounds(190, 210, 260, 30);
+        txtNombre.setBounds(210, 210, 227, 25);
 
         txtIdentificacion.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         txtIdentificacion.addActionListener(new java.awt.event.ActionListener() {
@@ -359,23 +342,23 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(txtIdentificacion);
-        txtIdentificacion.setBounds(150, 170, 100, 30);
+        txtIdentificacion.setBounds(210, 170, 230, 25);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("CREA UN ID:");
+        jLabel1.setText("Identificación:");
         panel.add(jLabel1);
-        jLabel1.setBounds(40, 180, 90, 17);
+        jLabel1.setBounds(100, 180, 98, 17);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("NOMBRE COMPLETO:");
+        jLabel2.setText("Nombre Completo:");
         panel.add(jLabel2);
-        jLabel2.setBounds(30, 210, 151, 20);
+        jLabel2.setBounds(70, 210, 140, 20);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/fondo principal.jpg"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/FondoPrincipal.jpg"))); // NOI18N
         panel.add(jLabel6);
-        jLabel6.setBounds(10, 20, 550, 500);
+        jLabel6.setBounds(0, 0, 590, 560);
 
         txtRuta.setEditable(false);
         txtRuta.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
@@ -385,7 +368,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         jScrollPane1.setBounds(130, 330, 300, 100);
 
         getContentPane().add(panel);
-        panel.setBounds(0, -10, 580, 540);
+        panel.setBounds(0, 0, 590, 560);
 
         pack();
         setLocationRelativeTo(null);
