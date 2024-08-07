@@ -40,7 +40,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
 <<<<<<< Updated upstream
            setTitle("RESTAURANTE"); //Titulo de la ventana
 =======
-           setTitle("RESTAURANTE B"); //Titulo de la ventana
+           setTitle("RESTAURANTE "); //Titulo de la ventana
 >>>>>>> Stashed changes
 
         
