@@ -34,7 +34,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         initComponents();
             this.setSize(591, 580); //Dimensiones de la ventana
            this.setResizable(false); //Dimensiones de la ventana fijas, no se puede modificar por el usuario
-           setTitle("RESTAURANTES MARISCOS - SOFTWARE"); //Titulo de la ventana
+           setTitle("RESTAURANTE RENCITO "); //Titulo de la ventana
         
         //Creamos hilo
         new Thread(){
