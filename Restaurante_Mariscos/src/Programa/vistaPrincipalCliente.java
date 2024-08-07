@@ -40,11 +40,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
            setTitle("RESTAURANTE cgjhgjk "); //Titulo de la ventana
 
         
-        //Creamos hilo
-        new Thread(){
-         public void run(){
-           int x = 500;
-           int y = Bienvenido.getLocation().y;
+
            
            while(true){
             x--;
