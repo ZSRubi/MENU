@@ -159,42 +159,37 @@ final public class vistaCarta extends javax.swing.JFrame {
               varPrecioComida=0;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Teriyaki de Pescado":
+          case "Lunes":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Arroz De Mariscos":
+          case "Martes":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Filete Playero":
+          case "Miercoles":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Pulpo con Camarón en Salsa verde":
+          case "Jueves":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Camarones al Coco":
+          case "Viernes":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Pizza al horno Camarón":
+          case "Sabado":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Pizza al horno Marinera":
-              Carta.setPrecioComida(10000);// Declaraciones
-              varPrecioComida=10000;
-              System.out.print("Comida: "+Carta.getPrecioComida());
-              break;
-          case "Almeja Chocolata":
+          case "Domingo":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
