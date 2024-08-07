@@ -48,7 +48,7 @@ final public class vistaCarta extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jComboBoxComidas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Seleccionar-", "Teriyaki de Pescado", "Arroz De Mariscos", "Filete Playero", "Pulpo con Camarón en Salsa verde", "Camarones al Coco", "Pizza al horno Camarón", "Pizza al horno Marinera", "Almeja Chocolata" }));
+        jComboBoxComidas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Seleccionar-", "Lunes", "Martes", "Miercoles", "Jueves", "viernes", "Sabado", "Domingo" }));
         jComboBoxComidas.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jComboBoxComidas.setName(""); // NOI18N
         jComboBoxComidas.addActionListener(new java.awt.event.ActionListener() {
