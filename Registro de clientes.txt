@@ -1,2 +1,7 @@
+<<<<<<< Updated upstream
 212,  ELVIS
 12, ELVIS
+=======
+214,  afvdshtrh
+1, elvis
+>>>>>>> Stashed changes
