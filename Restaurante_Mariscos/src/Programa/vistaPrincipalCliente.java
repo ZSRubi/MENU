@@ -37,7 +37,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
 
            
 
-           setTitle("RESTAURANTE BVDDGFHFBDFjhkkBBBBBBBBBBB"); //Titulo de la ventana
+           setTitle("RESTAURANTE"); //Titulo de la ventana
 
         
         //Creamos hilo
