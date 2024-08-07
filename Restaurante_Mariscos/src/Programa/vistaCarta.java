@@ -48,7 +48,7 @@ final public class vistaCarta extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jComboBoxComidas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Seleccionar-", "Teriyaki de Pescado", "Arroz De Mariscos", "Filete Playero", "Pulpo con Camarón en Salsa verde", "Camarones al Coco", "Pizza al horno Camarón", "Pizza al horno Marinera", "Almeja Chocolata" }));
+        jComboBoxComidas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Seleccionar-", "Lunes", "Martes", "Miercoles", "Jueves", "viernes", "Sabado", "Domingo" }));
         jComboBoxComidas.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jComboBoxComidas.setName(""); // NOI18N
         jComboBoxComidas.addActionListener(new java.awt.event.ActionListener() {
@@ -159,42 +159,37 @@ final public class vistaCarta extends javax.swing.JFrame {
               varPrecioComida=0;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Teriyaki de Pescado":
+          case "Lunes":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Arroz De Mariscos":
+          case "Martes":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Filete Playero":
+          case "Miercoles":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Pulpo con Camarón en Salsa verde":
+          case "Jueves":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Camarones al Coco":
+          case "Viernes":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Pizza al horno Camarón":
+          case "Sabado":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
               break;
-          case "Pizza al horno Marinera":
-              Carta.setPrecioComida(10000);// Declaraciones
-              varPrecioComida=10000;
-              System.out.print("Comida: "+Carta.getPrecioComida());
-              break;
-          case "Almeja Chocolata":
+          case "Domingo":
               Carta.setPrecioComida(10000);// Declaraciones
               varPrecioComida=10000;
               System.out.print("Comida: "+Carta.getPrecioComida());
