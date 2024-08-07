@@ -1,2 +1,10 @@
+<<<<<<< Updated upstream
 1212,  asasasas
 123213, sadasd
+=======
+515,     sadas
+1122,    asd
+23213,   mau
+3434,  ser
+123, 123
+>>>>>>> Stashed changes
