@@ -36,14 +36,12 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
            this.setResizable(false); //Dimensiones de la ventana fijas, no se puede modificar por el usuario
 
            
-<<<<<<< HEAD
            setTitle("RESTAURANTE"); //Titulo de la ventana
 
            setTitle("RESTAURANTE "); //Titulo de la ventana
-=======
+
 
            setTitle("RESTAURANTE"); //Titulo de la ventana
->>>>>>> e80b6e9f775201531c65f667c479fba0107d829d
 
         
         //Creamos hilo
