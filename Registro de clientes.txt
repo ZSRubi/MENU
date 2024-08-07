@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< HEAD
 1212,  asasasas
 123213, sadasd
 =======
@@ -7,4 +8,11 @@
 23213,   mau
 3434,  ser
 123, 123
+=======
+212,  ELVIS
+12, ELVIS
+=======
+214,  afvdshtrh
+1, elvis
+>>>>>>> d558fc494c861ff5fa6b09c4bf8b4af73a13cb3a
 >>>>>>> Stashed changes
