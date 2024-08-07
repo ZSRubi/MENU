@@ -5,15 +5,13 @@
  */
 package Programa;
 
-import Restaurante.Carta;
-import Restaurante.Proceso;
 import Restaurante.Cliente;
+import Restaurante.Proceso;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import static java.lang.Thread.sleep;
 import java.util.StringTokenizer;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -34,21 +32,13 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         initComponents();
             this.setSize(591, 580); //Dimensiones de la ventana
            this.setResizable(false); //Dimensiones de la ventana fijas, no se puede modificar por el usuario
-
-           
-           setTitle("RESTAURANTE"); //Titulo de la ventana
-
-           setTitle("RESTAURANTE "); //Titulo de la ventana
-
-
-           setTitle("RESTAURANTE"); //Titulo de la ventana
-
+           setTitle("RESTAURANTES MARISCOS - SOFTWARE"); //Titulo de la ventana
         
         //Creamos hilo
         new Thread(){
-            public void run(){
-              int x = 500;
-              int y = Bienvenido.getLocation().y;
+         public void run(){
+           int x = 500;
+           int y = Bienvenido.getLocation().y;
            
            while(true){
             x--;
