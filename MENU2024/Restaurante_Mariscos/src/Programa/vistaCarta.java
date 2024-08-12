@@ -20,12 +20,14 @@ final public class vistaCarta extends javax.swing.JFrame {
    public vistaCarta(java.awt.Frame parent, boolean modal) {
         initComponents();
         this.setSize(430,470);
-        this.setResizable(false);          
+        this.setResizable(false);  
+        setLocationRelativeTo(null);         
     }
 
     private vistaCarta() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
