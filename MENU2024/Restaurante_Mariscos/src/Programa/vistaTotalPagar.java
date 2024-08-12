@@ -1,10 +1,11 @@
 
 package Programa;
 
-import JuegoSorteo.vistaPrincipal;
+//import JuegoSorteo.vistaPrincipal;
 import Restaurante.Cliente;
 import Restaurante.Carta;
 import Restaurante.TotalesPagar;
+import Programa.vistaPrincipalCliente;
 
 
 public class vistaTotalPagar extends javax.swing.JFrame {
@@ -20,6 +21,7 @@ public class vistaTotalPagar extends javax.swing.JFrame {
         initComponents();
         this.setSize(542, 430);
         this.setResizable(false);
+        setLocationRelativeTo(null); 
         
      /*  String varNombre = "Nombre: "+nuevoCliente.getNombre();
        jLabel10.setText(varNombre); 
@@ -218,7 +220,7 @@ public class vistaTotalPagar extends javax.swing.JFrame {
 
     private void Registrar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Registrar1ActionPerformed
             
-    vistaPrincipal ventana = new vistaPrincipal();
+    vistaPrincipalCliente ventana = new vistaPrincipalCliente();
     ventana.setVisible(false);    
         
         
